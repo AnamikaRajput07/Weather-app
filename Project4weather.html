@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
     <link rel="stylesheet" href="Project4weather.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
 </head>
 <body>
 
@@ -22,7 +27,7 @@
         <div class="weather-container">
 
             <!-- grant location -->
-            <div class="grant-location-container">
+            <div class="sub-container grant-location-container">
 
                 <img src="./images/location.png" width= "80" height="80" loading="lazy">
                 <p>Grant Location Access</p>
@@ -34,20 +39,20 @@
             <!-- search weather form -->
              <form class="form-container" data-searchForm>
                 <input placeholder= "Search for City" data-searchInput type="text">
-                <button class="btn">
-                    <img src="./images/search.png" width= "80" height="80" loading="lazy"> 
+                <button class="btn" type="submit">
+                    <img src="./images/search.png" width= "30" height="30" loading="lazy"> 
                 </button>
              </form>
               
              <!-- loading screen  -->
-              <div class="loading-container">
+              <div class="sub-container  loading-container">
                 <img src="./images/loading.gif" width= "150" height="150">
                 <p>Loading</p>
 
               </div>
 
               <!-- weather-container -->
-               <div class="user-info-container">
+               <div class="sub-container user-info-container">
 
                 <!-- city name and flag -->
                 <div class="name">
